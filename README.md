@@ -1,16 +1,46 @@
-# my_easy_note
+# 📝 EasyNote
 
-A new Flutter project.
+**EasyNote** is a simple and powerful note-taking mobile application built with **Flutter** and **Firebase**. It helps users organize their notes into sections and manage them easily with search, filters, and status tracking.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 Google Sign-In & Email Authentication  
+- 📂 Create, edit, delete, and search **sections**  
+- 📝 Inside each section: create, edit, delete, and search **notes**  
+- ✅ Notes are categorized into:
+  - **All**
+  - **Complete**
+  - **Incomplete**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧪 Technologies Used
+
+- **Dart**
+- **Flutter**
+- **Firebase Authentication**
+- **Firebase Firestore**
+
+---
+
+## 📱 Platform Support
+
+EasyNote currently supports:
+
+- ✅ **Android only**
+
+> ❌ iOS, Web, and Desktop are not supported at the moment.
+
+---
+
+## 📦 Installation
+
+This project is not published yet. You can clone it and run it locally using Flutter:
+
+```bash
+git clone https://github.com/EngNezarKhoder/EasyNote.git
+cd EasyNote
+flutter pub get
+flutter run
