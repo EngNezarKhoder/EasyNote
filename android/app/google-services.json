@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "193686721420",
+    "project_id": "myeasynote-10921",
+    "storage_bucket": "myeasynote-10921.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193686721420:android:e60913e3981fcd7b69fca9",
+        "android_client_info": {
+          "package_name": "com.example.my_easy_note"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq5aSss3rViFexQTvxVa2S18GsXA5G5e4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
