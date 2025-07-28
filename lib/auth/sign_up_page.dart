@@ -78,10 +78,10 @@ class _SignUpPageState extends State<SignUpPage> {
     if (value.length < 6) {
       return 'Password must be at least 6 characters long';
     }
-    if (RegExp(r'[A-Z]').hasMatch(value)) {
+    if (!RegExp(r'[A-Z]').hasMatch(value)) {
       return 'Password must contain at least one uppercase letter';
     }
-    if (RegExp(r'[0-9]').hasMatch(value)) {
+    if (!RegExp(r'[0-9]').hasMatch(value)) {
       return 'Password must contain at least one number';
     }
     return null;
@@ -132,7 +132,9 @@ class _SignUpPageState extends State<SignUpPage> {
               child: ListView(
                 children: [
                   LogoPage(height: height),
-                  const SizedBox(height: 10,),
+                  const SizedBox(
+                    height: 10,
+                  ),
                   const Center(
                     child: Text(
                       "Sign Up",
